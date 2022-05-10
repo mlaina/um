@@ -1,0 +1,1 @@
+console.log("esto sirve para poner mensajes en la consola");
