@@ -1,0 +1,80 @@
+
+
+html{
+    background: url(./55244.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+
+    /*necesito saber como separar el header del resto para que el background este completo a partir del encabezado, y no incluyendolo*/
+
+
+
+
+header {
+    margin: 0%;
+    padding: 0%;
+}
+    .headerimage {
+       position: relative;
+        width: 100%;
+        height: 5cm;
+        background-color: silver;
+        margin-top: 0;
+        margin-bottom: 0px;
+        padding-top: 0;
+        background-image: url(./marvel.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    
+
+
+   .characters {
+        display: inline-grid;
+       
+        grid-template-columns: repeat(8, 1fr);
+        grid-gap: 10px;
+        background-color: white;
+        opacity: 55%;
+        color: #444;
+        width: 90%;
+        border: 15px solid gray;
+        padding: 50px;
+        margin: 20px;
+        overflow-y: scroll;
+        
+        
+        
+    }
+
+   .character {
+        background-color: #444;
+        color: #fff;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 150%;}
+        
+        /* necesito saber como aumentar la opcacidad de elementos concretos*/
+
+   .informacionpersonaje {
+        background-color: white;
+        opacity: 55%;
+        color: #444;   
+        width: 90%;
+        border: 15px solid gray;
+        padding: 50px;
+        margin: 20px
+   }
+    
+    #f {
+       position: absolute ;
+       left: 0px;
+       right: 0px;
+       bottom: 0px;
+       height: min-content;
+       z-index: 0;
+       text-align: center;
+    }
